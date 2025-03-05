@@ -2,8 +2,8 @@
 {
     internal class Posicao
     {
-        public int linha { get; private set; } //encapsulamento
-        public int coluna { get; private set; }
+        public int linha { get; set; } //encapsulamento
+        public int coluna { get; set; }
 
         public Posicao(int linha, int coluna) { //construtores
             this.linha = linha; //autoreferencia

@@ -1,5 +1,5 @@
 ﻿namespace tabuleiro {
-    enum Cor {
+    enum Cor { //tipos enumerados
         Branca,
         Preta,
         Amarela,
