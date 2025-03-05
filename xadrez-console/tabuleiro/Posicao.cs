@@ -2,15 +2,15 @@
 {
     internal class Posicao
     {
-        public int linha { get; set; }
-        public int coluna { get; set; }
+        public int linha { get; private set; } //encapsulamento
+        public int coluna { get; private set; }
 
-        public Posicao(int linha, int coluna) {
-            this.linha = linha;
+        public Posicao(int linha, int coluna) { //construtores
+            this.linha = linha; //autoreferencia
             this.coluna = coluna;
         }
 
-        public override string ToString() {
+        public override string ToString() { //sobreposicao
             return linha
                 + ", "
                 + coluna;
