@@ -3,7 +3,7 @@ using tabuleiro;
 
 namespace xadrez {
     internal class Torre : Peca { //herenca
-        public Torre(Tabuleiro tab, Cor cor)
+        public Torre(Tabuleiro tab, Cor cor) //construtor / base
             : base(tab, cor) { //repaca a informacao para a classe peca
         }
 
