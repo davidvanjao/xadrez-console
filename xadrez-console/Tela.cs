@@ -16,7 +16,7 @@ namespace xadrez_console {
             Console.Write("  " + "a " + "b " + "c " + "d " + "e " + "f " + "g " + "h ");
         }
 
-        public static void imprimirTabuleiro(Tabuleiro tab, bool[,] posicoesPossiveis) { //elemenstos staticos
+        public static void imprimirTabuleiro(Tabuleiro tab, bool[,] posicoesPossiveis) { //sobrecarga
 
             ConsoleColor fundoOriginal = Console.BackgroundColor;
             ConsoleColor fundoAlterado = ConsoleColor.DarkGray;
