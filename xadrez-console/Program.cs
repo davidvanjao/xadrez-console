@@ -46,6 +46,9 @@ namespace xadrez_console {
                     }
                 }
 
+                Console.Clear();
+                Tela.imprimirPartida(partida);
+
             } catch (TabuleiroException e) { //caso aconteca algum erro em try, exibi a mensagem de erro.
                 Console.WriteLine(e.Message);
                 Console.ReadLine();
