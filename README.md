@@ -35,8 +35,6 @@ Antes de iniciar, certifique-se de ter instalado:
 
 Caso ainda não tenha a ferramenta `dotnet-ef` instalada, execute o seguinte comando no terminal:
 
-1. dotnet-ef:
-
 ```bash
  dotnet tool install --global dotnet-ef
 ```
